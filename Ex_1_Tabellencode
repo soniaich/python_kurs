@@ -1,0 +1,24 @@
+## Ziel: Tabelle mit b=x und h=y mit Zellen ID (beginnend mit 0 laufend von links nach rechts in Zeile eins, weiter laufend in Zeile 2 usw.). Die Funktion soll bei Eingabe der Zellen ID die Zeile und Spalte der Zelle ausgeben
+
+## 5. Table
+
+
+b = 3
+h = 4
+i = 6
+#i ist die ID der Zelle und kann geändert werden
+
+z = ((i//b) + 1)
+s = ((i%b)+1)
+# % gibt Modulo, den Rest der Division an 
+print("Row", z,", Column", s)
+
+# Tabelle mit 4 Spalten
+B = 4
+H = 4
+I = 7
+
+Z = (I//B) + 1
+S = (I%B) + 1
+
+print("Zeile", Z, "Spalte", S)
